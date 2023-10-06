@@ -14,9 +14,9 @@ class ProfessorSeeder extends Seeder
     public function run(): void
     {
         Professor::create([
-            'nome' => 'Test User',
+            'nome' => 'Professor Admin',
             'matricula' => '123456789',
-            'email' => 'test@example.com',
+            'email' => 'professor@escola.com',
             'user_id' => 1
         ]);
         Professor::factory()->count(2)->create();
